@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #3498db;
+  --segundary-color: #3e3b3b;
+  --background-color: #222020;
+  --text-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.container {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: baseline;
+  height: 100vb;
+}
+
+.card {
+  background-color: var(--segundary-color);
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+.topo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.perfil {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+h1 {
+  font-size: 1.8rem;
+  color: var(--text-color);
+}
+address {
+  color: var(--primary-color);
+  padding: 5px;
+}
+p {
+  color: var(--text-color);
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+li {
+  text-decoration: none;
+  margin: 20px 0px;
+  text-align: center;
+  color: var(--text-color);
+  list-style-type: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  padding: 15px;
+  width: 100%;
+  min-width: 500px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
